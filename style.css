@@ -963,6 +963,10 @@ nav {
   text-align: center;
 }
 
+.resourcesImage {
+  width: 80%;
+}
+
 .resourcesHeroText {
   color: #6c7270;
   display: inline;
@@ -974,7 +978,7 @@ nav {
 .resourcesBody {
   margin-bottom: 5vh;
   margin-left: 5%;
-  margin-top: 15vh;
+  margin-top: 20vh;
   width: 90%;
 }
 
@@ -1075,6 +1079,11 @@ nav {
 
   .staffVideoIframe {
     width: 575px;
+  }
+
+  /* Resources Page Styles */
+  .resourcesImage {
+    width: auto;
   }
 }
 
@@ -1518,6 +1527,10 @@ nav {
   .resourcesImageHero {
     margin-left: 20%;
     text-align: left;
+  }
+
+  .resourcesImage {
+    width: auto;
   }
 
   .resourcesHeroText {
