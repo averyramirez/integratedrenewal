@@ -1,3 +1,13 @@
+/* Fonts */
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/Raleway-VariableFont_wght.ttf"),
+    url("fonts/Raleway-Italic-VariableFont_wght.ttf");
+
+  font-family: "Abuget";
+  src: url("fonts/Abuget.ttf");
+}
+
 /* Styles for devices under 640px (Mobile) */
 
 /* Navbar Styles */
