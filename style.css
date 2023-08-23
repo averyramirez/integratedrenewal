@@ -335,6 +335,7 @@ nav {
 }
 
 .clientTestimonial {
+  align-items: center;
   background-color: #f6f4eb;
   background-image: url("images/light\ brown\ blob.webp");
   background-position: center;
@@ -352,7 +353,7 @@ nav {
   font-style: italic;
   font-weight: 600;
   margin-left: 5%;
-  padding-top: 20%;
+  padding-top: 10%;
   width: 90%;
 }
 
