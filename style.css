@@ -576,14 +576,6 @@ nav {
   text-decoration: none;
 }
 
-.servicesSubtitle {
-  color: #5b5f5e !important;
-  font-family: "Raleway", sans-serif;
-  font-size: 13px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 .servicesTime,
 .servicesCost {
   color: black;
