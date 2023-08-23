@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Providers | Integrated Renewal</title>
+    <link rel="icon" href="images/iconLogo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <script>
+      $(document).ready(function () {
+        $(".dropdown").hover(
+          function () {
+            $(this).addClass("show");
+            $(this).find(".dropdown-menu").addClass("show");
+          },
+          function () {
+            $(this).removeClass("show");
+            $(this).find(".dropdown-menu").removeClass("show");
+          }
+        );
+      });
+    </script>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.webp" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link"
+                href="providers.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Providers
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="debbie-abrahamson.html"
+                    >Debbie Abrahamson</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="julie-watson.html"
+                    >Julie Watson</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="amy-kyser.html">Amy Kyser</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="cana-joy.html">Cana Joy</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="closedloopneuromodulation.html"
+                >Neuromodulation</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="impact.html">Impact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="impact.html#paypalDonate">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="impact text-center">
+      <div class="row">
+        <div class="col-12 col-sm-3">
+          <img src="images/crash scene.webp" class="impactImage" alt="" />
+        </div>
+        <div class="col-12 col-sm-9">
+          <h3 class="impactHeader">First Responders / Military</h3>
+          <p class="impactParagraph">
+            First responders are increasingly experiencing a lack of support
+            while seeking to protect our citizens. The trauma they incur has
+            lasting impact not only on them personally but also on their
+            families. We are able to provide support through neuromodulation
+            therapy, which has been shown to have a 93% success rate for those
+            experiencing PTSD, TBIs, depression, anxiety, and insomnia.
+          </p>
+        </div>
+      </div>
+
+      <img
+        src="images/btn_donateCC_LG.gif"
+        class="paypalDonate"
+        id="paypalDonate"
+        alt=""
+      />
+      <br />
+      <br />
+      <p class="donationText">
+        The donor will receive no goods, services, or other benefits from this
+        gift. Gifts to Integrated Renewal are tax-deductible as provided in
+        Section 170 of the IRS Code. All contributions are income tax-deductible
+        and are requested and/or received with the understanding that Integrated
+        Renewal has complete discretion and control over the use of all donated
+        funds.
+      </p>
+    </div>
+
+    <div class="footer text-center">
+      <div class="footerItems">
+        <a href="https://www.instagram.com/integratedrenewal" target="_blank"
+          ><img src="images/instagram.png" class="footerSocials"
+        /></a>
+        <a href="https://www.facebook.com/integratedrenewal" target="_blank"
+          ><img src="images/facebook.png" class="footerSocials"
+        /></a>
+        <p class="footerParagraph">
+          360.369.9604 (Call/Text)
+          <br />
+          PO Box 1675
+          <br />
+          Brush Prarie, WA 98606
+        </p>
+        <a href="index.html">
+          <img src="images/footerLogo.webp" alt="" />
+        </a>
+        <p class="footerCopyright">© 2023 Integrated Renewal</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

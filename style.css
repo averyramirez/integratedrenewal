@@ -1,0 +1,1469 @@
+/* Styles for devices under 640px (Mobile) */
+
+/* Navbar Styles */
+nav {
+  height: 70px;
+}
+
+.navbar {
+  background-color: #4c6c85;
+  color: white;
+}
+
+.navbar-brand img {
+  width: 250px;
+}
+
+.nav-link {
+  color: white !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px !important;
+}
+
+.nav-item > a:hover {
+  color: #daebf8 !important;
+}
+
+.navbar-nav > .active > a {
+  color: #daebf8 !important;
+  font-weight: 500 !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  background-color: #0c3c60 !important;
+  border-radius: 0px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: 100% !important;
+  text-align: center !important;
+}
+
+.dropdown-item {
+  color: white !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #0c3c60 !important;
+  text-shadow: 1px 1px #4c6c85;
+}
+
+/* Footer Styles */
+.footer {
+  align-items: center;
+  background-color: rgba(163, 163, 163, 0.75);
+  color: white;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerSocials {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  width: 25px;
+}
+
+.footerCopyright {
+  margin-top: 10px;
+}
+
+/* Homepage Styles */
+main {
+  background-image: url("images/background.jpg");
+}
+
+.hero {
+  align-items: center;
+  color: white !important;
+  display: flex;
+  height: 35vh;
+  justify-content: center;
+  margin-top: 70px;
+  position: relative;
+}
+
+.hero::before {
+  background-image: url("images/hero.png");
+  background-size: cover;
+  color: white !important;
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.heroText {
+  color: white !important;
+  justify-content: center;
+  width: 80%;
+}
+
+.heroTagline {
+  color: white !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  opacity: 1;
+  position: relative;
+  text-shadow: 1px 1px 1px rgba(75, 75, 75, 0.75);
+}
+
+.about {
+  background-color: #f6f4eb;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.aboutHeader {
+  color: #613d31;
+  font-family: "Abuget", sans-serif;
+  font-size: 40px;
+  margin-top: 2vh;
+}
+
+.aboutText {
+  font-size: 17px;
+  width: 90%;
+}
+
+.aboutParagraph {
+  color: #0c3c60;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.3;
+  margin-top: 2vh;
+}
+
+.aboutButton {
+  border-radius: 24px 5px 5px 5px !important;
+  background-color: rgb(158, 158, 158) !important;
+  color: white !important;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400;
+  height: 40px;
+  margin-bottom: 25px;
+  width: 136px;
+}
+
+.aboutButton:hover {
+  background-color: #613d31 !important;
+}
+
+.links {
+  height: auto;
+  width: 80%;
+  justify-content: center;
+  margin-left: 10%;
+}
+
+.linksCol {
+  background-color: #f6f4eb;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.linksHeader {
+  color: #613d31;
+  font-family: "Abuget", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.linksHeaderSmaller {
+  color: #613d31;
+  font-family: "Abuget", sans-serif;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.linksParagraph {
+  color: #613d31 !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.linksButton {
+  border-radius: 24px 5px 5px 5px !important;
+  background-color: #4c6c85 !important;
+  color: white !important;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  height: 30px;
+  margin-bottom: 25px;
+  width: 80px;
+}
+
+.linksButton:hover {
+  background-color: #c2d0db !important;
+  color: #4c6c85 !important;
+}
+
+.contact {
+  background-color: #c2d0db;
+  display: flex;
+  height: auto;
+  padding-bottom: 5vh;
+}
+
+.contactText {
+  width: 90%;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.contactHeader {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.contactParagraph {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-top: 20px;
+  text-align: center;
+  width: 90%;
+}
+
+.contactImage {
+  width: 100%;
+}
+
+.contactButton {
+  border-radius: 24px 5px 5px 5px !important;
+  background-color: #613d31 !important;
+  color: white !important;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 0;
+  height: 44px;
+  width: 225px;
+}
+
+.contactButton:hover {
+  background-color: rgb(158, 158, 158) !important;
+}
+
+/* About Us Page Styles */
+.aboutUsMain {
+  background-image: url("images/blue\ blob.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0;
+}
+
+.aboutUsHero {
+  height: 15vh;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.visionHeader {
+  color: #6c7270;
+  font-family: "Abuget", sans-serif;
+  font-size: 72px;
+  margin-bottom: 2vh;
+  margin-top: 4vh;
+}
+
+.aboutUsParagraph p {
+  color: #613d31;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-left: 5%;
+  text-align: justify;
+  text-indent: 25px;
+  width: 90%;
+}
+
+.ourTeamGroup {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(87, 87, 87, 0.5);
+  margin-left: 0;
+  margin-top: 20px;
+  width: 90%;
+}
+
+.ourTeamTagline {
+  color: #c2b09a !important;
+  font-family: "Abuget", sans-serif !important;
+  font-size: 76px !important;
+  padding-left: 20%;
+}
+
+.clientTestimonial {
+  background-color: #f6f4eb;
+  background-image: url("images/light\ brown\ blob.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  height: 43vh;
+  margin-left: 0;
+  width: 100%;
+}
+
+.clientTestimonialQuote {
+  color: #613d31;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 600;
+  margin-left: 5%;
+  padding-top: 20%;
+  width: 90%;
+}
+
+.integratedRenewalClient {
+  color: #613d31;
+  font-family: "Abuget", sans-serif;
+  font-size: 44px;
+}
+
+/* Provider Landing Page Styles */
+.providers {
+  width: 90%;
+  margin-bottom: 100px;
+  margin-left: 5%;
+  margin-top: 100px;
+}
+
+.meetOurTeam {
+  color: #6c7270;
+  font-family: "Abuget", sans-serif;
+  font-size: 74px;
+  margin-bottom: 25px;
+}
+
+.teamMemberPhoto {
+  margin-bottom: 10px;
+  width: 70%;
+}
+
+.teamMemberName {
+  color: #5b5f5e !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.teamMemberTitle {
+  color: #6c7270;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.teamMemberBio {
+  color: black !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  line-height: 1.3;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.teamMemberButton {
+  border-radius: 24px 5px 5px 5px !important;
+  background-color: #6c7270 !important;
+  color: white !important;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400;
+  height: 30px;
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.teamMemberButton:hover {
+  background-color: #c2d0db !important;
+  color: #4c6c85 !important;
+}
+
+/* Team Member Individual Page Styles */
+.staffBio {
+  margin-left: 5%;
+  margin-top: 100px;
+  width: 90%;
+}
+
+.staffBioParagraph {
+  color: #5b5f5e;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-left: 0%;
+  margin-top: 40px;
+  text-align: left;
+  width: 100%;
+}
+
+.staffLicense {
+  color: #6c7270;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.staffFeesHeader {
+  color: #6c7270;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.staffHr {
+  display: block;
+  width: 90%;
+}
+
+.treatmentLink {
+  color: #6c7270;
+  display: inline;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: 10px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.cost {
+  color: #6c7270;
+  display: inline;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.payBy {
+  color: #6c7270;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.staffName {
+  color: #6c7270;
+  font-family: "Abuget", sans-serif;
+  font-size: 64px;
+  text-align: left;
+}
+
+.staffPortrait {
+  display: flex;
+  width: 80%;
+}
+
+.staffTitle {
+  color: #6c7270;
+  font-family: "Raleway", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.staffContact {
+  color: #5b5f5e;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.staffEmail {
+  color: #5b5f5e !important;
+}
+
+.staffCerts {
+  color: #5b5f5e;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.staffVideo {
+  display: flex;
+  height: 35vh;
+  margin-bottom: 5vh;
+  margin-left: 20%;
+  margin-top: 5vh;
+  width: 60%;
+}
+
+/* Services Landing Page Styles */
+.services {
+  width: 90%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-top: 100px;
+}
+
+.servicesHeader {
+  color: #613d31;
+  font-family: "Abuget", sans-serif;
+  font-size: 90px;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+
+.servicesImage {
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.servicesTitle {
+  color: #5b5f5e !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.servicesSubtitle {
+  color: #5b5f5e !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.servicesTime,
+.servicesCost {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+/* Individual Service Page Styles */
+/* Neuromodulation/Individual/Coaching/Group */
+.servicePageHeader {
+  color: #613d31;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.servicePageBody {
+  color: #613d31;
+  margin-left: 5%;
+  margin-top: 70px;
+  text-align: center;
+  width: 90%;
+}
+
+.serviceImage {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.coachingPageBody {
+  color: #613d31;
+  margin-left: 5%;
+  margin-top: 70px;
+  text-align: center;
+  width: 90%;
+}
+
+.aboutCoaching {
+  margin-left: 10%;
+}
+
+.aboutCoachingParagraph {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  width: 90%;
+}
+
+.whatCoachingIs {
+  font-weight: 700;
+}
+
+.forNextSteps {
+  margin-top: 10px;
+}
+
+.nextStepsText {
+  display: inline-block;
+}
+
+.nextStepsEmail {
+  color: #613d31 !important;
+  display: block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.servicePageHeader {
+  font-family: "Raleway", sans-serif;
+  margin-left: 0;
+}
+
+.servicePageLocation {
+  font-size: 17px;
+  margin-left: 0;
+}
+
+.serviceLocationPin {
+  width: 25px;
+}
+
+.servicePageDesc {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.coachingPageDesc {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.neuromodulationTabLink {
+  color: #4d3832;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.providersTabLink {
+  color: #4d3832;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.servicePageBottom {
+  align-items: center;
+  display: flex;
+  height: auto;
+  margin-bottom: 3vh;
+  margin-left: 5%;
+  margin-top: 3vh;
+  width: 90%;
+}
+
+.individualPageBottom {
+  align-items: center;
+  display: flex;
+  height: auto;
+  margin-bottom: 3vh;
+  margin-left: 5%;
+  margin-top: 3vh;
+  width: 90%;
+}
+
+.serviceSmallDesc {
+  border-right: none;
+  color: #613d31;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+}
+
+.serviceConsultationDesc {
+  color: #613d31;
+  font-size: 13px;
+  text-align: center;
+  width: 100%;
+}
+
+.individualConsultationDesc {
+  color: #613d31;
+  font-size: 13px;
+  margin-left: 10%;
+  text-align: center;
+  width: 80%;
+}
+
+.serviceScheduleButton {
+  border-radius: 24px 5px 5px 5px !important;
+  background-color: #6d4d42 !important;
+  color: white !important;
+  font-family: "Raleway", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 0;
+  height: 44px;
+  width: 225px;
+}
+
+.serviceScheduleButton:hover {
+  background-color: rgb(158, 158, 158) !important;
+}
+
+.cancellationPolicy {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-right: 5px;
+  margin-top: 0;
+}
+
+/* Closed Loop Neuromodulation Page Styles */
+.neuromodulation {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 100px;
+}
+
+.neuromodulationHeader {
+  color: #613d31;
+  font-family: "Abuget", sans-serif;
+  font-size: 48px;
+}
+
+.neuromodulationSubheader {
+  color: black !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -15px;
+}
+
+.neuromodulationAbout {
+  background-image: url("images/dac5a3_2bc77210441241769ae78fab99bcf07d~mv2.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 0vh;
+  text-align: left;
+}
+
+.theBenefits {
+  color: #6c7270;
+  font-family: "Abuget", sans-serif;
+  font-size: 72px;
+  margin-left: 5%;
+  padding-top: 20vh;
+  text-align: center;
+  width: 90%;
+}
+
+.benefitsParagraph {
+  color: #0c3c60;
+  font-size: 17px;
+  line-height: 1.3;
+  margin-left: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.researchParagraph {
+  color: #0c3c60;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-left: 5%;
+  text-align: center;
+  width: 90%;
+}
+
+.whyNeuromodulation {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.whyHeader {
+  color: #6c7270;
+  font-family: "Abuget", sans-serif;
+  font-size: 48px;
+}
+
+.whyParagraph {
+  color: #0c3c60;
+  font-size: 17px;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.neuroCite {
+  color: #0c3c60;
+  font-size: 12px;
+}
+
+.neuroData {
+  margin-top: 1vh;
+}
+
+.neuroDataHeader {
+  color: #6c7270 !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.clientImprovement {
+  margin-bottom: 2vh;
+  width: 94%;
+}
+
+.neuroServiceBottom {
+  margin-left: 5%;
+  width: 90%;
+}
+
+.neuroServiceCol {
+  border-right: none;
+}
+
+.mapPin {
+  width: 20px;
+}
+
+.neuroServiceLocation {
+  color: #4d3832;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.neuroServiceDesc {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.consultationDesc {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Impact Page Styles */
+.impact {
+  margin-left: 5%;
+  margin-top: 100px;
+  width: 90%;
+}
+
+.impactImage {
+  border-radius: 50%;
+  height: 225px;
+  width: 225px;
+}
+
+.impactHeader {
+  color: #6c7270 !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.impactParagraph {
+  color: #6c7270;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-left: 0;
+  text-align: justify;
+  width: 100%;
+}
+
+.paypalDonate {
+  margin-top: 100px;
+}
+
+.donationText {
+  color: #4c6c85;
+  font-size: 11px;
+  font-style: italic;
+}
+
+/* Resources Page Styles */
+.resourcesHero {
+  background-color: #f6f4eb;
+  height: 28vh;
+  margin-top: 70px;
+}
+
+.resourcesImageHero {
+  margin-left: 0;
+  text-align: center;
+}
+
+.resourcesHeroText {
+  color: #6c7270;
+  display: inline;
+  font-family: "Abuget", sans-serif;
+  font-size: 72px;
+  margin-top: 4vh;
+}
+
+.resourcesBody {
+  margin-bottom: 5vh;
+  margin-left: 5%;
+  margin-top: 15vh;
+  width: 90%;
+}
+
+.resourcesHeader {
+  color: #6c7270;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 3vh;
+}
+
+.resourcesSubheader {
+  color: #6c7270;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 3vh;
+}
+
+.resourcesParagraph {
+  line-height: 1.2;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.resourcesLink {
+  color: #6c7270 !important;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* Styles for devices under 1199px (Tablet) */
+@media screen and (max-width: 1199px) and (min-width: 575px) {
+  /* About Us Page Styles */
+  .aboutUsParagraph {
+    font-size: 14px;
+    line-height: 1;
+    margin-left: 0;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .aboutUsParagraph p {
+    font-size: 14px;
+    line-height: 1.1;
+  }
+
+  .ourTeamGroup {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .clientTestimonialQuote {
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 12%;
+    margin-left: 20%;
+    width: 60%;
+  }
+
+  /* Individual Service Page Styles */
+  /* Neuromodulation/Individual/Coaching/Group */
+  .servicePageBody {
+    height: 47vh;
+    margin-left: 27%;
+    margin-top: 26vh;
+    text-align: justify;
+    width: 46%;
+  }
+
+  .staffVideoIframe {
+    width: 575px;
+  }
+}
+
+/* Styles for devices over 1200px (Desktop) */
+@media (min-width: 1200px) {
+  /* Navbar Styles */
+  nav {
+    height: 19vh;
+  }
+
+  .navbar-brand img {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .navbar .container-fluid {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-top: 15px;
+  }
+
+  /* Footer Styles */
+  .footer {
+    height: 28vh;
+  }
+
+  /* Homepage Styles */
+  .hero {
+    height: 28vh;
+    margin-top: 19vh;
+  }
+
+  .heroText {
+    color: white;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .heroTagline {
+    font-size: 20px;
+    opacity: 1;
+  }
+
+  .about {
+    height: 53vh;
+  }
+
+  .aboutHeader {
+    font-size: 78px;
+    margin-top: 5vh;
+  }
+
+  .aboutText {
+    font-size: 18px;
+    width: 900px;
+  }
+
+  .aboutParagraph {
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+  }
+
+  .aboutButton {
+    margin-bottom: 0;
+  }
+
+  .links {
+    height: 58vh;
+    width: 52%;
+    margin-left: 24%;
+  }
+
+  .linksCol {
+    height: 50vh;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .linksHeader {
+    font-size: 60px;
+  }
+
+  .linksParagraph {
+    margin-left: 11px;
+    margin-right: 11px;
+  }
+
+  .linksButton {
+    margin-bottom: 0;
+  }
+
+  .contact {
+    height: 55vh;
+    padding-bottom: 0;
+  }
+
+  .contactText {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .contactHeader {
+    font-size: 48px;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+  }
+
+  .contactParagraph {
+    margin-bottom: 0;
+    margin-left: 10%;
+    margin-top: 10px;
+    text-align: left;
+    width: 80%;
+  }
+
+  .contactButton {
+    margin-top: 5%;
+  }
+
+  /* About Us Page Styles */
+  .aboutUsMain {
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    height: 72vh;
+    margin-top: 2vh;
+  }
+
+  .aboutUsHero {
+    height: 18vh;
+    margin-top: 17vh;
+    width: 100%;
+  }
+
+  .visionHeader {
+    font-size: 88px;
+    letter-spacing: 5px;
+  }
+
+  .aboutUsParagraph {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-left: 20%;
+    text-align: justify;
+    width: 60%;
+  }
+
+  .ourTeamGroup {
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 100%;
+  }
+
+  .ourTeamTagline {
+    padding-left: 35%;
+  }
+
+  .clientTestimonial {
+    background-position: 5% 50%;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    height: 53vh;
+    width: 100%;
+  }
+
+  .clientTestimonialQuote {
+    font-size: 22px;
+    margin-left: 35%;
+    padding-top: 7%;
+    width: 30%;
+  }
+
+  /* Provider Landing Page Styles */
+  .providers {
+    width: 44%;
+    margin-left: 28%;
+    margin-top: 25vh;
+  }
+
+  .meetOurTeam {
+    font-size: 90px;
+    margin-bottom: 50px;
+  }
+
+  .teamMemberPhoto {
+    width: 100%;
+  }
+
+  .staffBio {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 27vh;
+  }
+
+  /* Individual Service Page Styles */
+  /* Neuromodulation/Individual/Coaching/Group */
+  .servicePageBody {
+    height: auto;
+    margin-left: 27%;
+    margin-top: 26vh;
+    text-align: justify;
+    width: 46%;
+  }
+
+  .coachingPageBody {
+    height: auto;
+    margin-left: 23%;
+    margin-top: 26vh;
+    text-align: justify;
+    width: 54%;
+  }
+
+  .aboutCoaching {
+    margin-left: 5%;
+  }
+
+  .aboutCoachingParagraph {
+    text-align: left;
+    width: 90%;
+  }
+
+  .servicePageHeader {
+    margin-left: 5%;
+  }
+
+  .servicePageLocation {
+    margin-left: 5%;
+  }
+
+  .servicePageDesc {
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+
+  .coachingPageDesc {
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+
+  .servicePageBottom {
+    align-items: center;
+    display: flex;
+    height: 11vh;
+    margin-left: 32%;
+    margin-top: 10vh;
+    width: 36%;
+  }
+
+  .individualPageBottom {
+    align-items: center;
+    display: flex;
+    height: 10vh;
+    margin-left: 38%;
+    margin-top: 5vh;
+    width: 26%;
+  }
+
+  .cancellationPolicy {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8vh;
+  }
+
+  .serviceSmallDesc {
+    align-items: center;
+    border-right: 2px solid #613d3170;
+    display: flex;
+    height: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+  }
+
+  .serviceConsultationDesc {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+  }
+
+  .individualConsultationDesc {
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: justify;
+  }
+
+  .serviceScheduleButton {
+    margin-top: 15px;
+  }
+
+  .payBy {
+    margin-right: 5%;
+  }
+
+  /* Services Landing Page Styles */
+  .services {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 25vh;
+  }
+
+  /* Closed Loop Neuromodulation Page Styles */
+  .neuromodulation {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 24vh;
+  }
+
+  .neuromodulationHeader {
+    font-size: 86px;
+  }
+
+  .neuromodulationSubheader {
+    font-size: 18px;
+    margin-top: -20px;
+  }
+
+  .neuromodulationAbout {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    height: auto;
+  }
+
+  .theBenefits {
+    font-size: 64px;
+    margin-left: 15%;
+    padding-top: 10vh;
+    text-align: left;
+  }
+
+  .benefitsParagraph {
+    margin-left: 15%;
+    text-align: left;
+    width: 40%;
+  }
+
+  .researchParagraph {
+    margin-left: 15%;
+    text-align: left;
+    width: 55%;
+  }
+
+  .whyNeuromodulation {
+    margin-left: 15%;
+    width: 70%;
+  }
+
+  .whyHeader {
+    font-size: 60px;
+  }
+
+  .whyParagraph {
+    text-align: justify;
+  }
+
+  .neuroData {
+    margin-top: 9vh;
+  }
+
+  .clientImprovement {
+    margin-bottom: 10vh;
+    width: auto;
+  }
+
+  .neuroServiceBottom {
+    height: 25vh;
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .neuroServiceCol {
+    border-right: 2px solid #613d3170;
+  }
+
+  .neuroServiceDesc {
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: justify;
+  }
+
+  .consultationDesc {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 0;
+    text-align: justify;
+  }
+
+  /* Impact Page Styles */
+  .impact {
+    margin-left: 30%;
+    margin-top: 25vh;
+    width: 40%;
+  }
+
+  .impactHeader {
+    margin-left: 10%;
+    padding-top: 5%;
+  }
+
+  .impactParagraph {
+    margin-left: 10%;
+    width: 90%;
+  }
+
+  /* Resources Page Styles */
+  .resourcesHero {
+    height: 23vh;
+    margin-top: 17vh;
+  }
+
+  .resourcesImageHero {
+    margin-left: 20%;
+    text-align: left;
+  }
+
+  .resourcesHeroText {
+    display: inline;
+    font-size: 88px;
+    margin-top: 32vh;
+  }
+
+  .resourcesBody {
+    margin-bottom: 10vh;
+    margin-left: 30%;
+    margin-top: 5vh;
+    width: 40%;
+  }
+
+  .resourcesSubheader {
+    margin-left: 2%;
+    margin-top: 3vh;
+  }
+
+  .resourcesParagraph {
+    margin-left: 2%;
+    margin-right: 15%;
+  }
+
+  .resourcesLink {
+    margin-left: 2%;
+  }
+}
