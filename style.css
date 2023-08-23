@@ -91,15 +91,19 @@ nav {
 }
 
 /* Homepage Styles */
-main {
-  background-image: url("images/background.jpg");
+.homepageBody {
+  background-image: url("images/backgroundImage.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero {
   align-items: center;
   color: white !important;
   display: flex;
-  height: 20vh;
+  height: 22vh;
   width: 100%;
   justify-content: center;
   margin-top: 70px;
@@ -127,37 +131,6 @@ main {
   text-shadow: 1px 1px 1px rgba(75, 75, 75, 0.75);
   width: 70%;
 }
-
-/* .hero::before {
-  background-image: url("images/hero.png");
-  background-size: cover;
-  color: white !important;
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  opacity: 0.75;
-} */
-
-/* .heroText {
-  color: white !important;
-  justify-content: center;
-  width: 80%;
-}
-
-.heroTagline {
-  color: white !important;
-  font-family: "Raleway", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  line-height: 1.2;
-  opacity: 1;
-  position: relative;
-  text-shadow: 1px 1px 1px rgba(75, 75, 75, 0.75);
-} */
 
 .about {
   background-color: #f6f4eb;
@@ -1174,6 +1147,7 @@ main {
   .links {
     height: auto;
     width: 60%;
+    margin-bottom: 5vh;
     margin-left: 20%;
   }
 
@@ -1216,7 +1190,7 @@ main {
   }
 
   .contactHeader {
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 5vh;
     margin-top: 5vh;
   }
