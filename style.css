@@ -186,10 +186,14 @@ main {
 }
 
 .linksCol {
-  background-color: #f6f4eb;
   height: auto;
   margin-left: 0;
   margin-right: 0;
+}
+
+.linksBody {
+  background-color: #f6f4eb;
+  height: auto;
 }
 
 .linksHeader {
@@ -210,8 +214,6 @@ main {
   color: #613d31 !important;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .linksButton {
@@ -586,8 +588,12 @@ main {
 .servicesTime,
 .servicesCost {
   color: black;
-  font-family: "Raleway", sans-serif;
   font-size: 16px;
+  font-weight: 400;
+}
+
+.servicesCost {
+  margin-bottom: 20px;
 }
 
 /* Individual Service Page Styles */
@@ -647,6 +653,12 @@ main {
   color: #613d31 !important;
   display: block;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.emdrLink {
+  color: #613d31 !important;
   font-weight: 700;
   text-decoration: none;
 }
@@ -1000,6 +1012,31 @@ main {
 
 /* Styles for devices under 1199px (Tablet) */
 @media screen and (max-width: 1199px) and (min-width: 575px) {
+  /* Homepage Styles */
+  .links {
+    height: 58vh;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .linksCol {
+    height: 50vh;
+  }
+
+  .linksHeader {
+    font-size: 46px;
+  }
+
+  .linksHeaderSmaller {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+
+  .linksParagraph {
+    font-size: 12px;
+    height: 28vh;
+  }
+
   /* About Us Page Styles */
   .aboutUsParagraph {
     font-size: 14px;
@@ -1111,28 +1148,37 @@ main {
   }
 
   .links {
-    height: 58vh;
-    width: 52%;
-    margin-left: 24%;
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
   }
 
   .linksCol {
-    height: 50vh;
-    margin-left: 8px;
-    margin-right: 8px;
+    height: auto;
+    margin-bottom: 10vh;
+  }
+
+  .linksBody {
+    height: 100%;
   }
 
   .linksHeader {
-    font-size: 60px;
+    font-size: 46px;
+  }
+
+  .linksHeaderSmaller {
+    font-size: 34px;
+    margin-bottom: 10px;
   }
 
   .linksParagraph {
-    margin-left: 11px;
-    margin-right: 11px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100%;
   }
 
   .linksButton {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   .contact {
@@ -1218,8 +1264,8 @@ main {
 
   /* Provider Landing Page Styles */
   .providers {
-    width: 44%;
-    margin-left: 28%;
+    width: 50%;
+    margin-left: 25%;
     margin-top: 25vh;
   }
 
