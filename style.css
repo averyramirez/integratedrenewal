@@ -182,7 +182,6 @@ main {
   color: #0c3c60;
   font-family: "Raleway", sans-serif;
   line-height: 1.3;
-  margin-top: 2vh;
 }
 
 .aboutButton {
@@ -1141,7 +1140,7 @@ main {
 
   .hero .heroText {
     font-size: 24px;
-    width: 70%;
+    width: 60%;
   }
 
   .hero {
