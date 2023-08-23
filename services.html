@@ -15,20 +15,6 @@
   </head>
   <body>
     <!-- Navbar -->
-    <script>
-      $(document).ready(function () {
-        $(".dropdown").hover(
-          function () {
-            $(this).addClass("show");
-            $(this).find(".dropdown-menu").addClass("show");
-          },
-          function () {
-            $(this).removeClass("show");
-            $(this).find(".dropdown-menu").removeClass("show");
-          }
-        );
-      });
-    </script>
     <nav class="navbar fixed-top navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
@@ -53,34 +39,8 @@
             <li class="nav-item">
               <a class="nav-link" href="about.html">About Us</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link"
-                href="providers.html"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Providers
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="debbie-abrahamson.html"
-                    >Debbie Abrahamson</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="julie-watson.html"
-                    >Julie Watson</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="amy-kyser.html">Amy Kyser</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="cana-joy.html">Cana Joy</a>
-                </li>
-              </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="providers.html">Providers</a>
             </li>
             <li class="nav-item active">
               <a class="nav-link" href="services.html">Services</a>
