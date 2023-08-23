@@ -530,11 +530,11 @@ main {
 
 .staffVideo {
   display: flex;
-  height: 35vh;
+  height: 30vh;
   margin-bottom: 5vh;
-  margin-left: 20%;
+  margin-left: 5%;
   margin-top: 5vh;
-  width: 60%;
+  width: 90%;
 }
 
 /* Services Landing Page Styles */
@@ -805,6 +805,15 @@ main {
   line-height: 1.2;
   margin-left: 5%;
   text-align: center;
+  width: 90%;
+}
+
+.neuromodulationVideo {
+  display: flex;
+  height: 30vh;
+  margin-bottom: 5vh;
+  margin-left: 5%;
+  margin-top: 5vh;
   width: 90%;
 }
 
@@ -1219,6 +1228,16 @@ main {
     margin-top: 27vh;
   }
 
+  /* Individual Provider Page Styles */
+  .staffVideo {
+    display: flex;
+    height: 35vh;
+    margin-bottom: 5vh;
+    margin-left: 20%;
+    margin-top: 5vh;
+    width: 60%;
+  }
+
   /* Individual Service Page Styles */
   /* Neuromodulation/Individual/Coaching/Group */
   .servicePageBody {
@@ -1365,6 +1384,13 @@ main {
     margin-left: 15%;
     text-align: left;
     width: 55%;
+  }
+
+  .neuromodulationVideo {
+    height: 40vh;
+    margin-left: 25%;
+    margin-top: 5vh;
+    width: 50%;
   }
 
   .whyNeuromodulation {
