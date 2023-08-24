@@ -282,7 +282,7 @@ nav {
 
 /* About Us Page Styles */
 .aboutUsMain {
-  background-image: url("images/blue\ blob.png");
+  background-image: url("images/blueBlob.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1272,7 +1272,7 @@ nav {
   }
 
   .teamMemberPhoto {
-    width: 100%;
+    width: 80%;
   }
 
   .staffBio {
