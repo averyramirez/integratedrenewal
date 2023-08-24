@@ -151,11 +151,17 @@ nav {
   font-weight: 400;
   height: 40px;
   margin-bottom: 25px;
+  text-decoration: none !important;
   width: 136px;
 }
 
 .aboutButton:hover {
   background-color: #613d31 !important;
+}
+
+.aboutButtonText {
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .links {
@@ -214,6 +220,11 @@ nav {
 .linksButton:hover {
   background-color: #c2d0db !important;
   color: #4c6c85 !important;
+}
+
+.linksButtonText {
+  color: white !important;
+  text-decoration: none !important;
 }
 
 .contact {
@@ -436,6 +447,10 @@ nav {
   font-weight: 500;
   margin-left: 10px;
   text-align: left;
+}
+
+.psychologyToday {
+  width: 170px;
 }
 
 .staffFeesHeader {
@@ -1189,10 +1204,6 @@ nav {
     margin-top: 10px;
     text-align: left;
     width: 80%;
-  }
-
-  .contactButton {
-    margin-top: 5%;
   }
 
   /* About Us Page Styles */
