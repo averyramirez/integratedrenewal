@@ -166,13 +166,14 @@ nav {
 
 .links {
   height: auto;
-  width: 80%;
+  width: 90%;
   justify-content: center;
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .linksCol {
   height: auto;
+  margin-bottom: 20px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -180,6 +181,7 @@ nav {
 .linksBody {
   background-color: #f6f4eb;
   height: auto;
+  margin-top: 20px;
 }
 
 .linksHeader {
@@ -1050,13 +1052,19 @@ nav {
 @media screen and (max-width: 1199px) and (min-width: 575px) {
   /* Homepage Styles */
   .links {
-    height: 58vh;
+    height: auto;
     width: 100%;
     margin-left: 0;
   }
 
+  .linksBody {
+    height: 100%;
+    margin-top: 0;
+  }
+
   .linksCol {
-    height: 50vh;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   .linksHeader {
@@ -1070,7 +1078,7 @@ nav {
 
   .linksParagraph {
     font-size: 11px;
-    height: 28vh;
+    height: auto;
   }
 
   /* About Us Page Styles */
@@ -1268,6 +1276,7 @@ nav {
 
   .linksBody {
     height: 100%;
+    margin-top: 0;
   }
 
   .linksHeader {
