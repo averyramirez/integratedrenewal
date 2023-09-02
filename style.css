@@ -159,7 +159,7 @@ nav {
   font-size: 14px !important;
   font-weight: 400;
   height: 40px;
-  margin-bottom: 25px;
+  margin-bottom: 40px;
   text-decoration: none !important;
   width: 136px;
 }
@@ -372,9 +372,9 @@ nav {
 
 /* Provider Landing Page Styles */
 .providers {
-  width: 90%;
+  width: 80%;
   margin-bottom: 100px;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-top: 100px;
 }
 
@@ -387,7 +387,7 @@ nav {
 
 .teamMemberPhoto {
   margin-bottom: 10px;
-  width: 70%;
+  width: 100%;
 }
 
 .teamMemberName {
@@ -470,13 +470,17 @@ nav {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 500;
+  margin-bottom: 0;
   margin-left: 10px;
   margin-top: 15px;
+  padding: 0;
   text-align: left;
 }
 
 .staffHr {
   display: block;
+  margin: 0;
+  padding: 0;
   width: 90%;
 }
 
@@ -506,7 +510,7 @@ nav {
   font-weight: 500;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 25px;
   text-align: left;
 }
 
@@ -1060,6 +1064,9 @@ nav {
 /* Styles for devices under 1199px (Tablet) */
 @media screen and (max-width: 1199px) and (min-width: 575px) {
   /* Homepage Styles */
+  .aboutButton {
+    margin-bottom: 40px;
+  }
   .links {
     height: auto;
     width: 100%;
@@ -1268,7 +1275,8 @@ nav {
   }
 
   .aboutButton {
-    margin-bottom: 0;
+    margin-bottom: 25px;
+    margin-top: 15px;
   }
 
   .links {
@@ -1397,7 +1405,7 @@ nav {
   }
 
   .teamMemberPhoto {
-    width: 80%;
+    width: 100%;
   }
 
   .staffBio {
@@ -1522,7 +1530,7 @@ nav {
   }
 
   .payBy {
-    margin-right: 5%;
+    margin-right: 10%;
   }
 
   .serviceImage {
