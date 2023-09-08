@@ -896,9 +896,19 @@ nav {
 
 .canvaEmbed {
   margin-bottom: 50px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 50px;
+}
+
+.canvaLink {
+  color: #613d31;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.canvaLink:hover {
+  color: #5b5f5e;
 }
 
 .neuroServiceBottom {
@@ -1593,13 +1603,13 @@ nav {
 
   .benefitsParagraph {
     margin-left: 15%;
-    text-align: left;
+    text-align: justify;
     width: 40%;
   }
 
   .researchParagraph {
     margin-left: 15%;
-    text-align: left;
+    text-align: justify;
     width: 55%;
   }
 
