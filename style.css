@@ -1048,6 +1048,10 @@ nav {
   margin-right: 2%;
 }
 
+.therapyNotesEmbed {
+  margin-left: 18%;
+}
+
 /* Styles for devices under 1199px (Tablet) */
 @media screen and (max-width: 1199px) and (min-width: 575px) {
   /* Navbar Styles */
@@ -1231,6 +1235,10 @@ nav {
 
   .resourcesBody {
     margin-top: 5vh;
+  }
+
+  .therapyNotesEmbed {
+    margin-left: 18%;
   }
 }
 
